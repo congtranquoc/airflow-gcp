@@ -1,0 +1,2549 @@
+[
+    {
+      "name": "id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "sku",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "name",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_key",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_path",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "type",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "author_name",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "book_cover",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "brand_name",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "short_description",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "price",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "list_price",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "badges",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "code",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "badges_new",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "placement",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "code",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "icon",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "icon_width",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "icon_height",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text_color",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "background_color",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "href",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "discount",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "discount_rate",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rating_average",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "order_count",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "favourite_count",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "thumbnail_url",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "thumbnail_width",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "thumbnail_height",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "freegift_items",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "thumbnail_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "description",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "inventory",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "product_virtual_type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "fulfillment_type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "url_attendant_input_form",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_visible",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "productset_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "productset_group_name",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seller",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "sku",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "link",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "logo",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "product_id",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "store_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_best_store",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_offline_installment_supported",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "is_flower",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_gift_card",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "option_color",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "code",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "stock_item",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "max_sale_qty",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "min_sale_qty",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "preorder_date",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "qty",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "salable_type",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "installment_info",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_review",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "bundle_deal",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "quantity_sold",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "value",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "video_url",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "tiki_live",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "original_price",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "other_sellers",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "link",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "logo",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "product_id",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "store_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "impression_info",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "impression_id",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "metadata",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "price",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "rating_average",
+              "mode": "NULLABLE",
+              "type": "FLOAT",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "reviews_count",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "seller_product_id",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "product_id",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "service_name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "version",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "checksum",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "advertisement",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "availability",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "primary_category_path",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "product_reco_score",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "add_on",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "thumbnail_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "add_on_description",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "add_on_description_list",
+          "mode": "REPEATED",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "list_price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "add_on_information_title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "add_on_information_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_default_select_addon",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_visible",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "add_on_title",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "all_time_quantity_sold",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "asa_cashback_widget",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "sep",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "rate",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "astra_convert_rate",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text_color",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "background_color",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "asa_plus_badge",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "new_badge",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "short_description",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "icon",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "height",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "width",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "button",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "text",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "amplitude",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "has_freeship_plus_benefit",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "partner_rewards_amount",
+              "mode": "NULLABLE",
+              "type": "FLOAT",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "tiki_rewards_amount",
+              "mode": "NULLABLE",
+              "type": "FLOAT",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "total_rewards_amount",
+              "mode": "NULLABLE",
+              "type": "FLOAT",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "benefits",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "title",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "sub_title",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "benefit_text",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "sub_icon",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "type",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "information_url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "icon_title",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "icon_url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "list",
+              "mode": "REPEATED",
+              "type": "RECORD",
+              "description": null,
+              "fields": [
+                {
+                  "name": "icon",
+                  "mode": "NULLABLE",
+                  "type": "STRING",
+                  "description": null,
+                  "fields": []
+                },
+                {
+                  "name": "text",
+                  "mode": "NULLABLE",
+                  "type": "STRING",
+                  "description": null,
+                  "fields": []
+                },
+                {
+                  "name": "link",
+                  "mode": "NULLABLE",
+                  "type": "STRING",
+                  "description": null,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "non_login_url_path",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "benefits",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "icon",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "extra",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "value",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "extra_text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "extra_header",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "brand",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "slug",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "breadcrumbs",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "category_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "categories",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_leaf",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "confirm_over_age",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "button",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "btn_accept",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "btn_cancel",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "content",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "configurable_options",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "code",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "position",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "show_preview_image",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "values",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "label",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "configurable_products",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "child_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "images",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "large_url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "medium_url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "small_url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "color",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "chu_ky",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "kich_thuoc_cau_hinh",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "kieu_dang_gift",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "do_kinh",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "size_nhan_nam",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "size_nhan_nu",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "inventory_status",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "option1",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "option2",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "option3",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "selected",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "seller",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "id",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        },
+        {
+          "name": "size_chart",
+          "mode": "REPEATED",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "sku",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "thumbnail_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "current_seller",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "sku",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "link",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "logo",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "product_id",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "store_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_best_store",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_offline_installment_supported",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "data_version",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "day_ago_created",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "deal_specs",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "deal_id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "discount_rate",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_hot_deal",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "list_price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "max_sale_qty",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "original_price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "progress",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "progress_text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "qty",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "qty_ordered",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "special_to_date",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "v5",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "description",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "gift_item_title",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "has_buynow",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "images",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "base_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_gallery",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "label",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "large_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "medium_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "position",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "small_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "thumbnail_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "installment_info_v2",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "summary",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "redirect_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "details",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "icon",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "summary",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "title",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "inventory_type",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_acoholic_drink",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_baby_milk",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_fresh",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_seller_in_chat_whitelist",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_tier_pricing_available",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_tier_pricing_eligible",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_inventory_clearance_sale",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "master_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "meta_description",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "meta_keywords",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "price_comparison",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "sub_title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "meta_title",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "progress_image_status",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "promitions",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "title",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "product_links",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "list_price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "inventory_status",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_free_gift",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "is_installation_package",
+          "mode": "NULLABLE",
+          "type": "BOOLEAN",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "thumbnail_url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "return_and_exchange_policy",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "review_text",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "text_color_new",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seller_specifications",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "value",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "services_and_promotions",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "tile",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "short_url",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "asa_rating",
+      "mode": "NULLABLE",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "average_rating",
+          "mode": "NULLABLE",
+          "type": "FLOAT",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "total_rating",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "specifications",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "attributes",
+          "mode": "REPEATED",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "code",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "name",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "value",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "asa_badges",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "text",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "image",
+          "mode": "NULLABLE",
+          "type": "RECORD",
+          "description": null,
+          "fields": [
+            {
+              "name": "url",
+              "mode": "NULLABLE",
+              "type": "STRING",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "height",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            },
+            {
+              "name": "width",
+              "mode": "NULLABLE",
+              "type": "INTEGER",
+              "description": null,
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "warranty_info",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "value",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "progress_mysql_status",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "warranty_policy",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "authors",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "id",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "slug",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "name": "group_id",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "group_status",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "group_type",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "has_ebook",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "inventory_status",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "live_stream_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "review_count",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seller_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seller_product_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "shippable",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_summary",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_video",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_video_thumbnail",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "url_video_youtube",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "view_count",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rating",
+      "mode": "NULLABLE",
+      "type": "FLOAT",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "category_ids",
+      "mode": "REPEATED",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "category_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_crawl_detail",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "base_url",
+      "mode": "REPEATED",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "error",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "response",
+      "mode": "NULLABLE",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "best_price_guaranteed",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "has_other_fee",
+      "mode": "REPEATED",
+      "type": "RECORD",
+      "description": null,
+      "fields": [
+        {
+          "name": "price",
+          "mode": "NULLABLE",
+          "type": "INTEGER",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "name",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "type",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "url",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        },
+        {
+          "name": "value",
+          "mode": "NULLABLE",
+          "type": "STRING",
+          "description": null,
+          "fields": []
+        }
+      ]
+    },
+    {
+        "name": "total_revenue",
+        "mode": "NULLABLE",
+        "type": "FLOAT",
+        "description": null,
+        "fields": []
+      },
+      {
+        "name": "created_date",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "description": null,
+        "fields": []
+      }
+  ]
